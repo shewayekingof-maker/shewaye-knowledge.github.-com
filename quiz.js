@@ -1,6 +1,6 @@
 // 500 General Knowledge Questions for Shewaye Quiz
 const questions = [
-  // ---------------- Ethiopian History & Culture (1 - 100) ----------------
+// ---------------- Ethiopian History & Culture (1 - 100) ----------------
   { category: "Ethiopian History", question: "የዓድዋ ጦርነት የተካሄደው በየትኛው ዓመተ ምህረት ነው?", options: ["1888 ዓ.ም", "1896 ዓ.ም", "1928 ዓ.ም", "1874 ዓ.ም"], answer: 0 },
   { category: "Ethiopian History", question: "የኢትዮጵያ የመጨረሻው ንጉሠ ነገሥት ማን ነበሩ?", options: ["አጼ ቴዎድሮስ", "አጼ ዮሐንስ", "ቀዳማዊ ኃይለ ሥላሴ", "አጼ ምኒልክ"], answer: 2 },
   { category: "Ethiopian History", question: "የአክሱም ሐውልቶች በየትኛው የኢትዮጵያ ክልል ይገኛሉ?", options: ["አማራ", "ትግራይ", "ኦሮሚያ", "ደቡብ"], answer: 1 },
@@ -46,7 +46,7 @@ const questions = [
   { category: "History", question: "ሁለተኛው የዓለም ጦርነት ያበቃው በየትኛው ዓመት ነው?", options: ["በእ.ኤ.አ. 1940", "በእ.ኤ.አ. 1945", "በእ.ኤ.አ. 1950", "በእ.ኤ.አ. 1938"], answer: 1 },
   { category: "Geography", question: "የጃፓን ዋና ከተማ ማን ይባላል?", options: ["ቤጂንግ", "ሴኡል", "ቶኪዮ", "ባንኮክ"], answer: 2 },
   { category: "Geography", question: "የካናዳ ዋና ከተማ ማን ይባላል?", options: ["ቶሮንቶ", "ኦታዋ", "ቫንኩቨር", "ሞንትሪያል"], answer: 1 },
-  { category: "Geography", question: "በቆዳ ስፋቷ በዓለም ላይ ትልቋ ሀገር የቋት ናት?", options: ["ካናዳ", "ቻይና", "ሩሲያ", "አሜሪካ"], answer: 2 },
+  { category: "Geography", question: "በቆዳ ስፋቷ በዓለም ላይ ትልቋ ሀገር ማን ናት?", options: ["ካናዳ", "ቻይና", "ሩሲያ", "አሜሪካ"], answer: 2 },
   { category: "Geography", question: "የአውስትራሊያ ዋና ከተማ ማን ይባላል?", options: ["ሲድኒ", "ሜልቦርን", "ካንቤራ", "ፐርዝ"], answer: 2 },
   { category: "Geography", question: "በሕዝብ ብዛት በዓለም ላይ በአንደኝነት የምትቀመጠው ሀገር የትኛዋ ናት?", options: ["ቻይና", "ሕንድ", "አሜሪካ", "ኢንዶኔዢያ"], answer: 1 },
   { category: "Technology", question: "'WWW' የሚለው ምህጻረ ቃል ሙሉ ትርጉም ምንድን ነው?", options: ["World Wide Web", "World Wide War", "Web Wide World", "World Web Wide"], answer: 0 },
@@ -61,7 +61,7 @@ const questions = [
   { category: "Sports", question: "የመጀመሪያው ዘመናዊ የኦሊምፒክ ጨዋታ የተካሄደው በየትኛው ዓመት ነው?", options: ["በእ.ኤ.አ. 1896", "በእ.ኤ.አ. 1900", "በእ.ኤ.አ. 1924", "በእ.ኤ.አ. 1880"], answer: 0 },
   { category: "Literature", question: "የ 'ፍቅር እስከ መቃብር' መጽሐፍ ደራሲ ማን ነው?", options: ["በአሉ ግርማ", "ሐዲስ አለማየሁ", "ፀጋዬ ገብረመድህን", "መንግስቱ ለማ"], answer: 1 },
   { category: "History", question: "በዓለም ላይ የመጀመሪያው የጽሑፍ ሥርዓት የተፈጠረው በየትኞቹ ሕዝቦች ነው?", options: ["ግብጻውያን", "ሱመሪያውያን", "ግሪኮች", "ሮማውያን"], answer: 1 },
-  { category: "Culture", question: "የኢትዮጵያ ብሔራዊ መዝሙር ግጥም የጻፈው ማን ነው?", options: ["ፀጋዬ ገብረመድህን", "ደረጀ መላኩ", "አሰፋ ገብረማርያም", "ነጋሽ ገብረማርያም"], answer: 1 },
+  { category: "Culture", question: "የኢትዮጵያ ብሔራዊ መዝሙር ግጥም የጻፈው ማን ነው?", options: ["ፀጋዬ ገብረመድህን", "ደረጀ መላኩ", "አሰፋ ገብረማርያም", "ነጋሽ ገብረማርያም"], answer: 2 },
   { category: "Literature", question: "'ሮሜዮ እና ጁልየት' ተውኔትን የጻፈው ደራሲ ማን ይባላል?", options: ["ቻርለስ ዲከንስ", "ዊሊያም ሼክስፒር", "ማርክ ቴዌን", "ኦስካር ዋይልድ"], answer: 1 },
   { category: "Literature", question: "የመጀመሪያው አፍሪካዊ የኖቤል የስነ-ጽሁፍ ተሸላሚ ማን ይባላል?", options: ["ቺኑዋ አቼቤ", "ዎሌ ሶይንካ", "ንጉጊ ዋ ዚያንጎ", "ንግሩዲን ፋራህ"], answer: 1 },
   { category: "Mathematics", question: "የፓይታጎረስ ቲዮረም ለየትኛው ዓይነት ሦስት ማዕዘን ያገለግላል?", options: ["እኩል ጎን ላለው", "ቀጥተኛ ማዕዘን ላለው", "ተሳቢ ጎን ላለው", "ለማንኛውም ሦስት ማዕዘን"], answer: 1 },
@@ -78,8 +78,7 @@ const questions = [
   { category: "Health", question: "የደም ግፊት መለኪያ መሣሪያ ምን ይባላል?", options: ["ቴርሞሜትር", "ስፊግሞማኖሜትር", "ባሮሜትር", "ስቴቶስኮፕ"], answer: 1 },
   { category: "Human Anatomy", question: "የሰው ልጅ በደቂቃ በአማካይ ስንት ጊዜ ይተነፍሳል?", options: ["ከ 5 እስከ 8 ጊዜ", "ከ 12 እስከ 20 ጊዜ", "ከ 30 እስከ 40 ጊዜ", "ከ 50 እስከ 60 ጊዜ"], answer: 1 },
   { category: "Health", question: "በሰው አካል ውስጥ የስኳር መጠንን የሚቆጣጠረው ሆርሞን የትኛው ነው?", options: ["አድሬናሊን", "ኢንሱሊን", "ታይሮክሲን", "ኤስትሮጂን"], answer: 1 },
-  { category: "Human Anatomy", question: "የሰው ልጅ አጥንቶች በአጠቃላይ ስንት ናቸው?", options: ["150", "206", "300", "210"], answer: 1 }
-
+  { category: "Human Anatomy", question: "የሰው ልጅ አጥንቶች በአጠቃላይ ስንት ናቸው?", options: ["150", "206", "300", "210"], answer: 1 },
 
   // ---------------- Sports & Culture (381 - 500) ----------------
   { category: "Sports", question: "የዓለም ዋንጫ እግር ኳስ ውድድር በስንት ዓመት አንዴ ይካሄዳል?", options: ["በ 2 ዓመት", "በ 3 ዓመት", "በ 4 ዓመት", "በ 5 ዓመት"], answer: 2 },
@@ -87,7 +86,6 @@ const questions = [
   { category: "Sports", question: "የ 10,000 ሜትር እና የ 5,000 ሜትር የዓለም ሪከርድ ባለቤት የሆነው ኢትዮጵያዊ አትሌት ማን ነው?", options: ["ኃይሌ ገብረስላሴ", "ቀነኒሳ በቀለ", "ስለሺ ስሂን", "ደራርቱ ቱሉ"], answer: 1 },
   { category: "Sports", question: "የመጀመሪያውን የኦሊምፒክ ወርቅ ሜዳሊያ በባዶ እግሩ በመሮጥ ያሸነፈው አትሌት ማን ነው?", options: ["አበበ ቢቂላ", "ማሞ ወልዴ", "ምሩፅ ይፍጠር", "ኃይሌ ገብረስላሴ"], answer: 0 },
   { category: "Sports", question: "በእግር ኳስ ጨዋታ በአንድ ቡድን ውስጥ ስንት ተጫዋቾች ይጫወታሉ?", options: ["9", "10", "11", "12"], answer: 2 }
-];
 
 // ---------------- Quiz Controller Engine ----------------
 let currentQuestionIndex = 0;
