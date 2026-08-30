@@ -3,47 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Shewaye Quiz</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>🧠 Shewaye Quiz</h1>
-        <p>General Knowledge Challenge</p>
-    </header>
+<header>
+    <h1>🧠 Shewaye Quiz</h1>
+    <p>500 የጠቅላላ እውቀት ጥያቄዎች</p>
+</header>
 
-    <main class="quiz-container" id="quiz-box">
-        <div class="top-bar">
-            <span id="progress">Question 1 / 10</span>
-            <span>Score: <span id="score-val">0</span></span>
-        </div>
+<main class="quiz-container">
 
-        <div class="progress">
-            <div id="progress-bar"></div>
-        </div>
+    <div class="top-bar">
+        <span id="question-number">ጥያቄ 1 / 500</span>
+        <span id="score">ነጥብ: 0</span>
+    </div>
 
-        <div class="category" id="category">
-            Science & Technology
-        </div>
+    <div class="progress">
+        <div id="progress-bar"></div>
+    </div>
 
-        <h2 id="question">Question loading...</h2>
+    <div class="category" id="category">
+        ጠቅላላ እውቀት
+    </div>
 
-        <div id="options" class="answers">
-            <!-- Options will appear here -->
-        </div>
+    <h2 id="question">ጥያቄ እየጫነ ነው...</h2>
 
-        <button id="next-btn" class="next-btn" style="display: none;">
-            Next ➔
-        </button>
-    </main>
+    <div id="answers" class="answers"></div>
 
-    <!-- የ JavaScript ፋይሉን እዚህ ጋር እናያይዛለን -->
-    <script src="quiz.js"></script>
-    <footer>
-        <p>© 2026 Shewaye Quiz</p>
-    </footer>
+    <button id="next-btn" class="next-btn">
+        ቀጣይ ➜
+    </button>
+
+</main>
+
+<div id="result" class="result hidden">
+
+    <h2>🎉 ፈተናው ተጠናቋል!</h2>
+
+    <p>ያገኘኸው ነጥብ</p>
+
+    <div id="final-score">0 / 500</div>
+
+    <p id="message"></p>
+
+    <button onclick="restartQuiz()" class="restart-btn">
+        🔄 እንደገና ሞክር
+    </button>
+
+</div>
+
+<footer>
+    <p>© 2026 Shewaye Quiz</p>
+</footer>
+
+<script src="quiz.js"></script>
+
 </body>
 </html>
-
-
