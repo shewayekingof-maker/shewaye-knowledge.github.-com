@@ -3,12 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Shewaye Quiz</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
     <header>
@@ -16,11 +13,10 @@
         <p>General Knowledge Challenge</p>
     </header>
 
-    <main class="quiz-container">
-
+    <main class="quiz-container" id="quiz-box">
         <div class="top-bar">
-            <span id="question-number">Question 1 / 10</span>
-            <span id="score">Score: 0</span>
+            <span id="progress">Question 1 / 10</span>
+            <span>Score: <span id="score-val">0</span></span>
         </div>
 
         <div class="progress">
@@ -31,43 +27,23 @@
             Science & Technology
         </div>
 
-        <h2 id="question">
-            Question loading...
-        </h2>
+        <h2 id="question">Question loading...</h2>
 
-        <div id="answers" class="answers">
-            <!-- Answers will appear here -->
+        <div id="options" class="answers">
+            <!-- Options will appear here -->
         </div>
 
-        <button id="next-btn" class="next-btn">
-            Next ➜
+        <button id="next-btn" class="next-btn" style="display: none;">
+            Next ➔
         </button>
-
     </main>
 
-    <div id="result" class="result hidden">
-
-        <h2>🎉 Quiz Completed!</h2>
-
-        <p>Your Score</p>
-
-        <div id="final-score">
-            0 / 10
-        </div>
-
-        <p id="message"></p>
-
-        <button onclick="restartQuiz()" class="restart-btn">
-            🔄 Try Again
-        </button>
-
-    </div>
-
+    <!-- የ JavaScript ፋይሉን እዚህ ጋር እናያይዛለን -->
+    <script src="quiz.js"></script>
     <footer>
         <p>© 2026 Shewaye Quiz</p>
     </footer>
-
-    <script src="quiz.js"></script>
-
 </body>
 </html>
+
+
