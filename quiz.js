@@ -1,71 +1,192 @@
-  { category: "History", question: "የተባበሩት መንግሥታት ድርጅት (UN) የተመሠረተው በየትኛው ዓመተ ምህረት ነው?", options: ["በእ.ኤ.አ. 1918", "በእ.ኤ.አ. 1945", "በእ.ኤ.አ. 1963", "በእ.ኤ.አ. 1950"], answer: 1 },
-  { category: "History", question: "የአፍሪካ ህብረት (OAU) ዋና መሥሪያ ቤት የት ይገኛል?", options: ["ካይሮ", "ናይሮቢ", "አዲስ አበባ፤ ኢትዮጵያ", "ጆሃንስበርግ"], answer: 2 },
-  { category: "History", question: "አንደኛው የዓለም ጦርነት የተጀመረው በየትኛው ዓመት ነው?", options: ["በእ.ኤ.አ. 1914", "በእ.ኤ.አ. 1939", "በእ.ኤ.አ. 1905", "በእ.ኤ.አ. 1920"], answer: 0 },
-  { category: "History", question: "የኢንዱስትሪ አብዮት ለመጀመሪያ ጊዜ የተጀመረው በየትኛው ሀገር ነው?", options: ["ፈረንሳይ", "አሜሪካ", "ታላቋ ብሪታንያ", "ጀርመን"], answer: 2 },
-  { category: "History", question: "ሁለተኛው የዓለም ጦርነት ያበቃው በየትኛው ዓመት ነው?", options: ["በእ.ኤ.አ. 1940", "በእ.ኤ.አ. 1945", "በእ.ኤ.አ. 1950", "በእ.ኤ.አ. 1938"], answer: 1 },
-  { category: "Geography", question: "የጃፓን ዋና ከተማ ማን ይባላል?", options: ["ቤጂንግ", "ሴኡል", "ቶኪዮ", "ባንኮክ"], answer: 2 },
-  { category: "Geography", question: "የካናዳ ዋና ከተማ ማን ይባላል?", options: ["ቶሮንቶ", "ኦታዋ", "ቫንኩቨር", "ሞንትሪያል"], answer: 1 },
-  { category: "Geography", question: "በቆዳ ስፋቷ በዓለም ላይ ትልቋ ሀገር ማን ናት?", options: ["ካናዳ", "ቻይና", "ሩሲያ", "አሜሪካ"], answer: 2 },
-  { category: "Geography", question: "የአውስትራሊያ ዋና ከተማ ማን ይባላል?", options: ["ሲድኒ", "ሜልቦርን", "ካንቤራ", "ፐርዝ"], answer: 2 },
-  { category: "Geography", question: "በሕዝብ ብዛት በዓለም ላይ በአንደኝነት የምትቀመጠው ሀገር የትኛዋ ናት?", options: ["ቻይና", "ሕንድ", "አሜሪካ", "ኢንዶኔዢያ"], answer: 1 },
-  { category: "Technology", question: "'WWW' የሚለው ምህጻረ ቃል ሙሉ ትርጉም ምንድን ነው?", options: ["World Wide Web", "World Wide War", "Web Wide World", "World Web Wide"], answer: 0 },
-  { category: "Technology", question: "ኮምፒውተር ላይ መረጃን ጊዜያዊ አድርጎ የሚያስቀምጠው ማህደረ ትውስታ ምንድን ነው?", options: ["ROM", "Hard Drive", "RAM", "SSD"], answer: 2 },
-  { category: "Technology", question: "መጀመሪያውን ስልክ የፈጠረው ሰው ማን ይባላል?", options: ["ቶማስ ኤዲሰን", "አሌክሳንደር ግራሃም ቤል", "ኒኮላ ቴስላ", "አልበርት አንስታይን"], answer: 1 },
-  { category: "Technology", question: "የሲሊኮን ቫሊ (Silicon Valley) ማዕከል በየትኛው ክፍለ ሀገር ይገኛል?", options: ["ኒው ዮርክ", "ቴክሳስ", "ካሊፎርኒያ", "ዋሽንግተን"], answer: 2 },
-  { category: "Technology", question: "'CPU' የሚለው ምህጻረ ቃል ሙሉ ትርጉም ምንድን ነው?", options: ["Central Processing Unit", "Computer Processing Unit", "Central Power Unit", "Control Processing Unit"], answer: 0 },
-  { category: "Sports", question: "የኦሊምፒክ ጨዋታዎች ለመጀመሪያ ጊዜ የተጀመሩት በየትኛዋ ሀገር ነው?", options: ["ጣሊያን", "ግሪክ", "ግብጽ", "ፈረንሳይ"], answer: 1 },
-  { category: "Arts", question: "የሞናሊዛ (Mona Lisa) ስዕል የሳለው ጥበበኛ ማን ይባላል?", options: ["ፓብሎ ፒካሶ", "ቪንሰንት ቫን ጎህ", "ሊዮናርዶ ዳ ቪንቺ", "ሚካኤል አንጄሎ"], answer: 2 },
-  { category: "Sports", question: "በዓለም ዋንጫ እግር ኳስ ብዙ ጊዜ ያሸነፈችው ሀገር የትኛዋ ናት?", options: ["ጀርመን", "አርጀንቲና", "ብራዚል", "ጣሊያን"], answer: 2 },
-  { category: "Arts", question: "የፒያኖ ቁልፎች በአጠቃላይ ስንት ናቸው?", options: ["66", "76", "88", "100"], answer: 2 },
-  { category: "Sports", question: "የመጀመሪያው ዘመናዊ የኦሊምፒክ ጨዋታ የተካሄደው በየትኛው ዓመት ነው?", options: ["በእ.ኤ.አ. 1896", "በእ.ኤ.አ. 1900", "በእ.ኤ.አ. 1924", "በእ.ኤ.አ. 1880"], answer: 0 },
-  { category: "Literature", question: "የ 'ፍቅር እስከ መቃብር' መጽሐፍ ደራሲ ማን ነው?", options: ["በአሉ ግርማ", "ሐዲስ አለማየሁ", "ፀጋዬ ገብረመድህን", "መንግስቱ ለማ"], answer: 1 },
-  { category: "History", question: "በዓለም ላይ የመጀመሪያው የጽሑፍ ሥርዓት የተፈጠረው በየትኞቹ ሕዝቦች ነው?", options: ["ግብጻውያን", "ሱመሪያውያን", "ግሪኮች", "ሮማውያን"], answer: 1 },
-  { category: "Culture", question: "የኢትዮጵያ ብሔራዊ መዝሙር ግጥም የጻፈው ማን ነው?", options: ["ፀጋዬ ገብረመድህን", "ደረጀ መላኩ", "አሰፋ ገብረማርያም", "ነጋሽ ገብረማርያም"], answer: 2 },
-  { category: "Literature", question: "'ሮሜዮ እና ጁልየት' ተውኔትን የጻፈው ደራሲ ማን ይባላል?", options: ["ቻርለስ ዲከንስ", "ዊሊያም ሼክስፒር", "ማርክ ቴዌን", "ኦስካር ዋይልድ"], answer: 1 },
-  { category: "Literature", question: "የመጀመሪያው አፍሪካዊ የኖቤል የስነ-ጽሁፍ ተሸላሚ ማን ይባላል?", options: ["ቺኑዋ አቼቤ", "ዎሌ ሶይንካ", "ንጉጊ ዋ ዚያንጎ", "ንግሩዲን ፋራህ"], answer: 1 },
-  { category: "Mathematics", question: "የፓይታጎረስ ቲዮረም ለየትኛው ዓይነት ሦስት ማዕዘን ያገለግላል?", options: ["እኩል ጎን ላለው", "ቀጥተኛ ማዕዘን ላለው", "ተሳቢ ጎን ላለው", "ለማንኛውም ሦስት ማዕዘን"], answer: 1 },
-  { category: "Mathematics", question: "የመጀመሪያው እና ብቸኛው ጥንድ የመወያያ (Prime) ቁጥር የትኛው ነው?", options: ["0", "1", "2", "4"], answer: 2 },
-  { category: "Mathematics", question: "የፓይ (π) ግምታዊ ዋጋ ስንት ነው?", options: ["2.14", "3.14", "4.14", "1.41"], answer: 1 },
-  { category: "Mathematics", question: "የአንድ ክብ የውስጥ ማዕዘናት ድምር ስንት ዲግሪ ነው?", options: ["180°", "270°", "360°", "90°"], answer: 2 },
-  { category: "Mathematics", question: "0! (Zero factorial) ዋጋው ስንት ነው?", options: ["0", "1", "undefined", "10"], answer: 1 },
-  { category: "Space Science", question: "ወደ ጠፈር ለመጀመሪያ ጊዜ የተኮሰችው መንኮራኩር ማን ትባላለች?", options: ["አፖሎ 11", "ስፑትኒክ 1", "ቮዬጀር 1", "ቻሌንጀር"], answer: 1 },
-  { category: "Technology", question: "የብርሃን አምፖልን ያሻሻለው እና የፈጠረው ሰው ማን ነው?", options: ["ኒኮላ ቴስላ", "ቶማስ ኤዲሰን", "አሌክሳንደር ፎርሚ", "ቤንጃሚን ፍራንክሊን"], answer: 1 },
-  { category: "Space Science", question: "የሳተርን ፕላኔት በዙሪያዋ በሚገኙት ምኖች ትታወቃለች?", options: ["ቀለበቶች", "ጨረቃዎች", "ደመናዎች", "በረዶዎች"], answer: 0 },
-  { category: "Science", question: "የራዲዮአክቲቪቲ ግኝት ባለቤት የሆነችው የመጀመሪያዋ ሴት ማን ናት?", options: ["ሮዛሊንድ ፍራንክሊን", "ማሪ ኩሪ", "አዳ ሎቭሌስ", "ሊዝ ሜይትነር"], answer: 1 },
-  { category: "Space Science", question: "በጨረቃ ላይ ለመጀመሪያ ጊዜ እግሩን ያረገው ሰው ማን ይባላል?", options: ["ዩሪ ጋጋሪን", "ኔይል አርምስትሮንግ", "ቡዝ ኦልድሪን", "ጆን ግሌን"], answer: 1 },
-  { category: "Human Anatomy", question: "በሰው አካል ውስጥ ትንሹ አጥንት የት ይገኛል?", options: ["እጅ ውስጥ", "ጆሮ ውስጥ", "እግር ውስጥ", "አፍንጫ ውስጥ"], answer: 1 },
-  { category: "Health", question: "የደም ግፊት መለኪያ መሣሪያ ምን ይባላል?", options: ["ቴርሞሜትር", "ስፊግሞማኖሜትር", "ባሮሜትር", "ስቴቶስኮፕ"], answer: 1 },
-  { category: "Human Anatomy", question: "የሰው ልጅ በደቂቃ በአማካይ ስንት ጊዜ ይተነፍሳል?", options: ["ከ 5 እስከ 8 ጊዜ", "ከ 12 እስከ 20 ጊዜ", "ከ 30 እስከ 40 ጊዜ", "ከ 50 እስከ 60 ጊዜ"], answer: 1 },
-  { category: "Health", question: "በሰው አካል ውስጥ የስኳር መጠንን የሚቆጣጠረው ሆርሞን የትኛው ነው?", options: ["አድሬናሊን", "ኢንሱሊን", "ታይሮክሲን", "ኤስትሮጂን"], answer: 1 },
-  { category: "Human Anatomy", question: "የሰው ልጅ አጥንቶች በአጠቃላይ ስንት ናቸው?", options: ["150", "206", "300", "210"], answer: 1 },
+ const questions = [
+    {
+        question: "የኢትዮጵያ ዋና ከተማ ማን ናት?",
+        answers: [
+            "አዲስ አበባ",
+            "ጅማ",
+            "ደሴ",
+            "ባህር ዳር"
+        ],
+        correct: 0,
+        category: "ጂኦግራፊ"
+    },
 
-  // ---------------- Sports & Culture (381 - 500) ----------------
-  { category: "Sports", question: "የዓለም ዋንጫ እግር ኳስ ውድድር በስንት ዓመት አንዴ ይካሄዳል?", options: ["በ 2 ዓመት", "በ 3 ዓመት", "በ 4 ዓመት", "በ 5 ዓመት"], answer: 2 },
-  { category: "Sports", question: "በኦሊምፒክ የማራቶን ሩጫ ርቀት ስንት ኪሎሜትር ነው?", options: ["40 km", "42.195 km", "45 km", "38.5 km"], answer: 1 },
-  { category: "Sports", question: "የ 10,000 ሜትር እና የ 5,000 ሜትር የዓለም ሪከርድ ባለቤት የሆነው ኢትዮጵያዊ አትሌት ማን ነው?", options: ["ኃይሌ ገብረስላሴ", "ቀነኒሳ በቀለ", "ስለሺ ስሂን", "ደራርቱ ቱሉ"], answer: 1 },
-  { category: "Sports", question: "የመጀመሪያውን የኦሊምፒክ ወርቅ ሜዳሊያ በባዶ እግሩ በመሮጥ ያሸነፈው አትሌት ማን ነው?", options: ["አበበ ቢቂላ", "ማሞ ወልዴ", "ምሩፅ ይፍጠር", "ኃይሌ ገብረስላሴ"], answer: 0 },
-  { category: "Sports", question: "በእግር ኳስ ጨዋታ በአንድ ቡድን ውስጥ ስንት ተጫዋቾች ይጫወታሉ?", options: ["9", "10", "11", "12"], answer: 2 }
+    {
+        question: "ፀሐይ ምንድን ናት?",
+        answers: [
+            "ፕላኔት",
+            "ኮከብ",
+            "ጨረቃ",
+            "አስትሮይድ"
+        ],
+        correct: 1,
+        category: "ሳይንስ"
+    },
 
-// ---------------- Quiz Controller Engine ----------------
-let currentQuestionIndex = 0;
+    {
+        question: "ውሃ በመደበኛ የከባቢ አየር ግፊት በስንት ዲግሪ ሴልሺየስ ይፈላል?",
+        answers: [
+            "50°C",
+            "75°C",
+            "100°C",
+            "150°C"
+        ],
+        correct: 2,
+        category: "ሳይንስ"
+    },
+
+    {
+        question: "የምድር ተፈጥሯዊ ሳተላይት ማን ነው?",
+        answers: [
+            "ፀሐይ",
+            "ማርስ",
+            "ጨረቃ",
+            "ቬኑስ"
+        ],
+        correct: 2,
+        category: "ሳይንስ"
+    },
+
+    {
+        question: "በእንግሊዝኛ ፊደላት ስንት ፊደላት አሉ?",
+        answers: [
+            "20",
+            "24",
+            "26",
+            "30"
+        ],
+        correct: 2,
+        category: "ትምህርት"
+    }
+];
+
+// እዚህ ላይ ቀጥሎ 500 ጥያቄዎች ይጨመራሉ።
+
+let currentQuestion = 0;
 let score = 0;
-let shuffledQuestions = [];
+let answered = false;
 
-// ጥያቄዎችን በዘፈቀደ ማቀያየሪያ (Shuffle)
-function shuffle(array) {
-  return array.sort(() => Math.random() - 0.5);
+const questionElement = document.getElementById("question");
+const answersElement = document.getElementById("answers");
+const nextButton = document.getElementById("next-btn");
+const scoreElement = document.getElementById("score");
+const questionNumber = document.getElementById("question-number");
+const progressBar = document.getElementById("progress-bar");
+const categoryElement = document.getElementById("category");
+
+function showQuestion() {
+
+    answered = false;
+
+    const q = questions[currentQuestion];
+
+    questionElement.textContent = q.question;
+    categoryElement.textContent = q.category;
+
+    questionNumber.textContent =
+        ጥያቄ ${currentQuestion + 1} / ${questions.length};
+
+    scoreElement.textContent =
+        ነጥብ: ${score};
+
+    progressBar.style.width =
+        ${((currentQuestion + 1) / questions.length) * 100}%;
+
+    answersElement.innerHTML = "";
+
+    q.answers.forEach((answer, index) => {
+
+        const button = document.createElement("button");
+
+        button.className = "answer-btn";
+        button.textContent = answer;
+
+        button.onclick = () => selectAnswer(index, button);
+
+        answersElement.appendChild(button);
+    });
+
+    nextButton.style.display = "none";
 }
 
-function startQuiz() {
-  shuffledQuestions = shuffle([...questions]);
-  currentQuestionIndex = 0;
-  score = 0;
-  loadQuestion();
+function selectAnswer(index, button) {
+
+    if (answered) return;
+
+    answered = true;
+
+    const q = questions[currentQuestion];
+    const allButtons = document.querySelectorAll(".answer-btn");
+
+    if (index === q.correct) {
+
+        button.classList.add("correct");
+        score++;
+
+    } else {
+
+        button.classList.add("wrong");
+        allButtons[q.correct].classList.add("correct");
+    }
+
+    scoreElement.textContent =
+        ነጥብ: ${score};
+
+    nextButton.style.display = "block";
 }
 
-function loadQuestion() {
-  const q = shuffledQuestions[currentQuestionIndex];
-  const questionEl = document.getElementById("question");
-  const optionsContainer = document.getElementById("options");
-  const categoryEl = document.getElementById("category");
-  const progressEl = document.getElementById("progress");
+nextButton.onclick = () => {
+
+    currentQuestion++;
+
+    if (currentQuestion < questions.length) {
+
+        showQuestion();
+
+    } else {
+
+        finishQuiz();
+    }
+};
+
+function finishQuiz() {
+
+    document.querySelector(".quiz-container")
+        .classList.add("hidden");
+
+    document.getElementById("result")
+        .classList.remove("hidden");
+
+    document.getElementById("final-score").textContent =
+        ${score} / ${questions.length};
+
+    let message = "";
+
+    const percentage = (score / questions.length) * 100;
+
+    if (percentage >= 80) {
+        message = "🏆 በጣም ጥሩ! እጅግ ጥሩ እውቀት አለህ!";
+    } else if (percentage >= 60) {
+        message = "👏 ጥሩ ውጤት! ትንሽ ተጨማሪ ልምምድ አድርግ!";
+    } else {
+        message = "💪 እንደገና ሞክር! የበለጠ ትችላለህ!";
+    }
+
+    document.getElementById("message").textContent = message;
+}
+
+function restartQuiz() {
+
+    currentQuestion = 0;
+    score = 0;
+
+    document.getElementById("result")
+        .classList.add("hidden");
+
+    document.querySelector(".quiz-container")
+        .classList.remove("hidden");
+
+    showQuestion();
+}
+
+showQuestion();
